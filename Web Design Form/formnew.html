@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href='styleform.css' rel='stylesheet'/>
+</head>
+
+<!-- <script>
+function Adjuster(){
+	var wrap = document.getElementById('sitewrapper');
+
+	wrap.style.height = window.innerHeight + "px";
+}
+</script> -->
+
+
+<body>
+<div class="sitewrapper" id="sitewrapper">
+
+<div class="imggolf">
+			<img src="country3.png" alt="golf" id="flagimage"/>
+</div>
+
+
+
+<h1>| Sign up | </h1>
+
+<div class="ball"></div>
+<!-- <div></div> -->
+
+
+<form method='POST' action='output.php'>
+
+<!-- text input  -->
+
+
+<div class="formcontainer">
+ <form>
+
+    	 <label for='name'/>
+    	 <input type='text' name='name' id='name' placeholder="Full Name"/>
+			 </label>
+			 <br>
+			 <label for='email'/>
+			 <input type='text' name='email' id='email' placeholder="Email" />
+		 </label>
+		   <br>
+		   <label for='postal'/>
+		   <input type='text' name='postal' id='postal' placeholder="Postal Code"/>
+		   </label>
+			 <br>
+
+
+			 <h3> Skill Level </h3>
+			<div class="radio-button">
+				<ul>
+			 <li><input type="radio" id="beginner" name="interest" value="Beginner"/>
+			 <label for="beginner"> Beginner</label></li>
+		 	 <li><input type="radio" id="intermediate" name="interest" value="intermediate"/>
+			 <label class="radiolabel" for="intermediate">Intermediate</label></li>
+			 <li><input type="radio" id="advanced" name="interest" value="advanced"/>
+			<label class="radiolabel2" for="advanced">Advanced</label></li>
+		  </ul>
+		 </div>
+		  <label class="checkboxlabel" for="country"></label>
+		  <select name="country" id="country">
+				<option selected="selected"> Country </option>
+				<option value="canada"> Canada eh? </option>
+				<option value="USA"> United States </option>
+				<option value="iceland"> Iceland </option>
+				<option value="england"> The United Kingdom </option>
+			 <label for="comments"></label>
+ 			 <textarea name="comments" id="comments" rows="5" cols="56" placeholder="Any Comments?" ></textarea>
+
+
+			<div class="checklabel">
+			 <label for="terms"></label>
+			 <input type="checkbox" id="termscheck"/> Agree to Terms and Conditions
+		 </div>
+
+
+
+		 <div class="subbutton-container">
+ 	 			<input type="submit" value="SUBMIT" id='subbutton'>
+		</div>
+<!-- radio button  -->
+
+ </form>
+</div>
+
+<h2> TRACGOLF </h2>
+
+
+</div>
+
+
+
+
+</body>
+</html>

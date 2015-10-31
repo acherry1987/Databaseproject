@@ -1,0 +1,335 @@
+
+* {
+	box-sizing: border-box;
+	font-size: 16px
+}
+
+
+/*<-- turns selection of words green --> */
+::selection {
+    color: #9CE2AE;
+    background: none;
+}
+
+
+body {
+	background-color: #f1f1f2;
+}
+
+.ball {
+	margin-top: 28px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background:#9CE2AE;
+	animation: bounce .5s ease-out 0.5s 1;
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+h1 {
+	font-family: sans-serif; Furtura;
+	padding: 5px;
+	/* display: inline; */
+	color: #6C7A89;
+	font-size: 4rem;
+	/*margin-top: 10px;*/
+	margin-left: 30px;
+
+}
+
+h2 {
+	font-family: sans-serif; Furtura;
+	font-size: 2rem;
+	padding: 5px;
+	text-align: right;
+	color: #282828;
+	opacity: .8;
+}
+
+
+h3 {
+	font-family: sans-serif;Futura;
+	font-size: 1.5rem;
+	opacity: .9;
+	text-align: center;
+
+	color: #95A5A6;
+}
+
+
+
+.radiolabel {
+	font-family: sans-serif; Furtura;
+	/*padding: 5px;*/
+}
+
+
+/*label {
+  cursor: pointer;
+}*/
+
+input {
+	border: none;
+	/*border-bottom: 2px solid #757575;*/
+	/*margin-bottom: 15px;*/
+	transition: border 0.2s ease-in-out;
+	outline: none;
+	font-family: sans-serif; Furtura;
+
+}
+
+input:focus{
+	border: 4px solid #9CE2AE;
+}
+
+ul li {
+	display: inline;
+	list-style: none;
+	margin-left: 60px;
+}
+
+textarea {
+	border: none;
+	transition: border 0.2s ease-in-out;
+	outline: none;
+}
+
+textarea:focus {
+	border: 4px solid #9CE2AE;
+}
+
+select {
+	border: none;
+	outline: none;
+	transition: border 0.2s ease-in-out;
+	display: block;
+	margin: 0 auto;
+	font-family: sans-serif; Furtura;
+	opacity: .5;
+}
+
+select:focus{
+	border: 4px solid #9CE2AE;
+}
+
+option {
+	font-family: sans-serif; Furtura;
+	}
+
+
+#name {
+
+height: 20px;
+width: 80%;
+padding: 20px;
+opacity: .8;
+display:block;
+margin: 0 auto;
+margin-top: 10px;
+background-color: #DADFE1;
+border-radius: 5px;
+
+}
+
+
+
+#email {
+
+height: 20px;
+width: 80%;
+padding: 20px;
+opacity: .8;
+display:block;
+margin: 0 auto;
+background-color: #DADFE1;
+border-radius: 5px;
+}
+
+
+#postal {
+
+height: 20px;
+width: 80%;
+padding: 20px;
+opacity: .8;
+display:block;
+margin: 0 auto;
+background-color: #DADFE1;
+border-radius: 5px;
+}
+
+#comments {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 80%;
+	background-color: #f1f1f2;
+	cursor: pointer;
+	background-color: #DADFE1;
+	border-radius: 5px;
+}
+
+
+#country {
+	padding: 5px;
+	width:80%;
+	display: block;
+	/*margin: 0 auto;*/
+	cursor: pointer;
+	font-family: sans-serif; Furtura;
+	background-color: #DADFE1;
+	/*line-height: 150%;*/
+	margin-bottom: 20px;
+}
+
+
+#subbutton {
+height: 60px;
+width: 95%;
+color: white;
+font-color: blue;
+background-color: #6C7A89;
+font-family: sans-serif; Furtura;
+font-weight: 800;
+/*border-width: 3px;*/
+border-style: none;
+/*border-color: #6C7A89;*/*/
+font-size: 1.8rem;
+cursor: pointer;
+margin: 0 auto;
+/*margin-top: 50px;*/
+display: block;
+border-radius: 5px;
+
+}
+
+/*color: #77787B*/
+
+#subbutton:hover{
+	background-color: #9CE2AE;
+	color: white;
+	/*border-color: #9CE2AE;*/
+}
+
+#flagimage {
+	height: 50px;
+	width: auto;
+	padding: 10px;
+	opacity: .8;
+
+}
+
+#termscheck {
+	opacity: .7;
+	font-family:
+	font-family: sans-serif; Furtura;
+	padding-top: 10px;
+	margin-top: 5px;
+
+}
+
+
+.checklabel {
+	display: block;
+	margin: 0 auto;
+	font-family: sans-serif; Futura;
+	opacity: .5;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.imggolf {
+	/*height: 5%;*/
+	/*width: auto;*/
+	opacity: .7;
+	text-align: right;
+
+
+}
+
+.formcontainer {
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 45px;
+	padding: 10px;
+	margin-bottom: 50px;
+
+}
+
+.radio-button {
+	font-family: sans-serif; Furtura;
+	opacity: .8;
+	padding: 10px;
+	opacity: .6;
+	display: block;
+	margin: 0 auto;
+
+
+
+}
+
+.checkboxlabel {
+	font-family: sans-serif; Furtura;
+}
+
+@keyframes bounce {
+	0% {
+		opacity: 0;
+		transform: scale(9);
+	}
+
+	30% {
+		opacity: .2;
+		transform: scale(7);
+	}
+	60% {
+		opacity: .5;
+		transform: scale(5);
+	}
+	80% {
+		opacity: .8;
+		transform: scale(3);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+
+ul li {
+	display: list-item;
+	display: block;
+	margin: 0 auto;
+}
+.formcontainer {
+	width: 100%;
+}
+}
+
+.imggolf {
+	text-align: center;
+ }
+}
+
+@media screen and (max-width: 768px) {
+
+ul li {
+	display: list-item;
+	display: block;
+	margin: 0 auto;
+}
+}
