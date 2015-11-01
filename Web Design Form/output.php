@@ -9,10 +9,10 @@ ini_set( 'display_startup_errors', 1 );
  $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
 $name = $_POST["name"];
-echo "Welcome " . $name;
+echo "Welcome " . $name . '<br/>';
 
 $email = $_POST["email"];
-echo "Your username is:" . $email;
+echo "Your username is:" . $email . "\xA";
 
 $postal = $_POST["postal"];
 $skill = $_POST["skillLevel"];
