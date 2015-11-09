@@ -31,6 +31,9 @@ $stmt->bindParam(':country', $country);
 
 $stmt->execute();
 
+$stmt = $db->prepare("INSERT INTO Handicap (Email, Handicap) VALUES (:email, :country)");
+$stmt->bindParam(':email', $email);
+$stmt->bindParam(':country', $country);
 
-
+$stmt->execute();
 ?>

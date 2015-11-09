@@ -12,6 +12,10 @@
 }
 
 
+label {
+	padding-top: 5px;
+}
+
 body {
 	background-color: #f1f1f2;
 }
@@ -63,13 +67,8 @@ h3 {
 
 .radiolabel {
 	font-family: sans-serif; Furtura;
-	/*padding: 5px;*/
 }
 
-
-/*label {
-  cursor: pointer;
-}*/
 
 input {
 	border: none;
@@ -134,7 +133,12 @@ border-radius: 5px;
 
 }
 
+#skill {
+	padding-bottom: 5px;
+	cursor: pointer;
+	line-height: 10px;
 
+}
 
 #email {
 
@@ -170,6 +174,7 @@ border-radius: 5px;
 	cursor: pointer;
 	background-color: #DADFE1;
 	border-radius: 5px;
+
 }
 
 
@@ -252,7 +257,7 @@ border-radius: 5px;
 }
 
 .formcontainer {
-	width: 65%;
+	width: 70%;
 	margin: 0 auto;
 	margin-top: 45px;
 	padding: 10px;
@@ -274,7 +279,13 @@ border-radius: 5px;
 
 .checkboxlabel {
 	font-family: sans-serif; Furtura;
+
 }
+
+.handicheck {
+	padding-bottom: 5px;
+}
+
 
 @keyframes bounce {
 	0% {
