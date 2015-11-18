@@ -36,4 +36,7 @@ $stmt->bindParam(':email', $email);
 $stmt->bindParam(':country', $country);
 
 $stmt->execute();
+
+
+
 ?>
